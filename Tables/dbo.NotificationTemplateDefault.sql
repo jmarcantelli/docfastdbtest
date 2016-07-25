@@ -10,21 +10,3 @@ ALTER TABLE [dbo].[NotificationTemplateDefault] ADD CONSTRAINT [PK_NotificationT
 GO
 ALTER TABLE [dbo].[NotificationTemplateDefault] ADD CONSTRAINT [uc_NotificationTemplateDefault_TemplateReferenceId] UNIQUE NONCLUSTERED  ([TemplateReferenceId]) ON [PRIMARY]
 GO
-GRANT ALTER ON  [dbo].[NotificationTemplateDefault] TO [AppUser_PolicyEX]
-GO
-GRANT CONTROL ON  [dbo].[NotificationTemplateDefault] TO [AppUser_PolicyEX]
-GO
-GRANT TAKE OWNERSHIP ON  [dbo].[NotificationTemplateDefault] TO [AppUser_PolicyEX]
-GO
-GRANT VIEW DEFINITION ON  [dbo].[NotificationTemplateDefault] TO [AppUser_PolicyEX]
-GO
-GRANT REFERENCES ON  [dbo].[NotificationTemplateDefault] TO [AppUser_PolicyEX]
-GO
-GRANT SELECT ON  [dbo].[NotificationTemplateDefault] TO [AppUser_PolicyEX]
-GO
-GRANT INSERT ON  [dbo].[NotificationTemplateDefault] TO [AppUser_PolicyEX]
-GO
-GRANT DELETE ON  [dbo].[NotificationTemplateDefault] TO [AppUser_PolicyEX]
-GO
-GRANT UPDATE ON  [dbo].[NotificationTemplateDefault] TO [AppUser_PolicyEX]
-GO
