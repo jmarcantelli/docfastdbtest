@@ -1,0 +1,2 @@
+CREATE USER [PolicyReadOnly] WITHOUT LOGIN
+GO

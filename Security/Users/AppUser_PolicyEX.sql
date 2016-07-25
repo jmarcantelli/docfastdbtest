@@ -1,0 +1,2 @@
+CREATE USER [AppUser_PolicyEX] WITHOUT LOGIN
+GO
